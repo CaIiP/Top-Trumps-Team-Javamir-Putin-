@@ -9,11 +9,11 @@ public class Card {
 	private int range;
 	//constructor 
 	public Card(String n, int sz, int sp, int f, int c, int r) {
-		this.setName(n);
-		this.setCargo(c);
+		this.name = n;
+		this.cargo = c;
 		this.size = sz;
-		this.setFirepower(f);
-		this.setSpeed(sp);
+		this.firepower = f;
+		this.speed = sp;
 	}
 	// methods 
 	public String getName() {
